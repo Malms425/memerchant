@@ -37,7 +37,7 @@ class Listing(Base):
     @property
     def title(self):
         return {
-            'fixie': 'Panasonic Fixie',
+            'cornerstore': 'Corner Store',
             'hybrid': 'Cozmic CX 1.0',
             'road': 'Myata Vintage Road Bike',
             'touring': 'Roberts Cycles Clubman',
@@ -46,10 +46,7 @@ class Listing(Base):
     @property
     def description(self):
         return {
-            'fixie': ('Early 80\'s panasonic 10spd frame with a nice new '
-                      'chrome fork, aluminum bars, nice aluminum stem, '
-                      'weinman singlespeed/fixed wheel set (velocity style '
-                      'rims).'),
+            'cornerstore': ('The perfect place to showcase your merchandise!'),
             'hybrid': (
                 'The Cozmic CX 1.0 features a butted frame (reduces weight) '
                 'combined with hydraulic brakes to give amazing stopping power'
@@ -70,7 +67,7 @@ class Listing(Base):
     @property
     def price(self):
         return {
-            'fixie': 15,
+            'cornerstore': 150,
             'hybrid': 18,
             'road': 12,
             'touring': 10,
