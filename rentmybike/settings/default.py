@@ -1,6 +1,6 @@
 import os as _os
 
-APPLICATION_NAME = 'rentmybike'
+APPLICATION_NAME = 'memerchant'
 
 DEBUG = True
 
@@ -25,18 +25,18 @@ DEFAULT_USERS = [
 
 # custom
 
-DOMAIN_URI = 'http://www.example.com'
+DOMAIN_URI = 'http://memerchant.herokuapp.com'
 
-BALANCED_SECRET = '6289680a886c11e2a44a026ba7cd33d0'
+BALANCED_SECRET = 'd04d94eebb6911e2a260026ba7c1aba6'
 
 DB_URI = 'sqlite://'
 DB_DEBUG = False
 
 MAIL_DEBUG = True
-MAIL_FROM = ('Rent my Bike', 'support@example.com')
+MAIL_FROM = ('MeMerchant', 'support@example.com')
 MAIL_SERVER = 'smtp.mailgun.org'
 MAIL_USERNAME = 'user@mailgun.org'
 MAIL_PASSWORD = 'password'
 MAIL_PORT = 587
 
-GITHUB_URL = 'https://github.com/me/rentmybikes'
+GITHUB_URL = 'https://github.com/me/memerchant'
