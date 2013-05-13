@@ -39,4 +39,4 @@ MAIL_USERNAME = 'user@mailgun.org'
 MAIL_PASSWORD = 'password'
 MAIL_PORT = 587
 
-GITHUB_URL = 'https://github.com/me/memerchant'
+GITHUB_URL = 'https://github.com/Malms425/memerchant'
